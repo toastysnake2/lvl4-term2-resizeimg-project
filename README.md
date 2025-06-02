@@ -61,3 +61,8 @@ runs eslint
 
 ## supertest
 runs all supertests in resizeimg.test.ts and src/tests/uploadimg.test.ts
+
+# extra notes
+* the bio of upload doesnt work cuse i couldnt figure it out without breaking the rest of my code by accident so i decided to add the silly note in the website, its a extra so it doesnt matter anyways
+* you must be in the same folder as the json file in order for npm i / npm instal to work
+* ignore the first few weird msgs by prettier its cuse it scaneed an .jpg file and couldnt find anythiing to change
