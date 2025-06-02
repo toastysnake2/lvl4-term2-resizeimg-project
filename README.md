@@ -1,5 +1,5 @@
 # image resizer project
-the deci level4 term 2 graduation project, its supposed to resize pre-existing images, allow you to upload images,and resize those aswell
+the deci level4 term 2 graduation project, its supposed to resize pre-existing images, allow you to upload images,and resize those aswell, it aslo creates a resized directory for cached images if the directory is messing
 ## how to access
 * you must run the start script
 * run "npm i" in command prompt to instal node modules
