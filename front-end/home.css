@@ -1,0 +1,213 @@
+body {
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),
+    url('https://i.pinimg.com/736x/67/8f/12/678f12ad0389deb5c7cc9b931a3af1ab.jpg');
+}
+
+.topextras {
+  background-image: url('https://cutekawaiiresources.wordpress.com/wp-content/uploads/2014/08/6.gif');
+  background-repeat: repeat-x;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.extras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.titleimg {
+  padding: 10px;
+  width: 90px;
+}
+
+.headertxt {
+  font-family: 'Bangers';
+  flex-direction: column;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.headersmalltxt {
+  font-family: 'Coral Pixels', italic;
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.G_T_I_IMG {
+  width: 30px;
+  margin: 5px;
+}
+
+.gallerytitle {
+  display: flex;
+  justify-content: center;
+  font-family: 'Pixelify Sans';
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  align-items: center;
+  margin: 5%;
+  margin-top: 2%;
+}
+
+.galleryimg {
+  width: 100px;
+  height: 100px;
+}
+
+.imagebio {
+  background-color: #fffcfd;
+  box-shadow: 0 0 7px #895365;
+  margin: 5px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgdisc {
+  flex-direction: column;
+  text-align: center;
+}
+
+.contaner3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.warningextras {
+  background-image: url('https://pixelsafari.neocities.org/dividers/blackcats.gif');
+  background-repeat: repeat-x;
+}
+.warningextras2 {
+  background-image: url('https://pixelsafari.neocities.org/dividers/blackthornyroses.gif');
+  background-repeat: repeat-x;
+}
+.warnimg {
+  margin: 20px;
+}
+
+.warntxt {
+  font-family: 'Coral Pixels', italic;
+}
+/* ------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.middlextras {
+  background-image: url('https://pixelsafari.neocities.org/dividers/more/photos.gif');
+  background-repeat: repeat-x;
+}
+
+.minicontainer3 {
+  display: flex;
+}
+
+.dropdowntxt {
+  font-family: 'Pixelify Sans';
+}
+
+.S_R_I_IMG {
+  margin: 10px;
+}
+
+.P_R_I_IMG {
+  margin: 8px;
+}
+
+.inputbox {
+  font-family: 'Coral Pixels', italic;
+}
+.submitbt {
+  font-family: 'Bangers';
+  margin: 25px;
+  height: 50px;
+  width: 100px;
+}
+.BT_IMG {
+  height: 50px;
+}
+
+.bottomextras {
+  background-image: url('https://pixelsafari.neocities.org/dividers/bluestarribbon2.gif');
+  background-repeat: repeat-x;
+  filter: hue-rotate(115deg);
+}
+
+/* ----------------------------------------------------------------------------------------- */
+#hiddendiv {
+  display: none;
+}
+.resizedextras {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.theresized {
+  border: solid #895365 5px;
+  border-radius: 10%;
+}
+
+.resizedtext {
+  text-align: center;
+  font-family: 'Bangers';
+  font-size: x-large;
+}
+
+.resizedlink {
+  display: flex;
+  justify-content: center;
+  font-family: 'Coral Pixels';
+}
+
+.submitimgbox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.submitextra {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitextraimg {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+.sillycontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: solid rgb(73, 36, 73) 5px; */
+  padding: 4%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 20%;
+  margin-top: 5%;
+}
+
+.sponsoreimgbox {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

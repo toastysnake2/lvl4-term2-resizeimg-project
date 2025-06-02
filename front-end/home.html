@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>resize image</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Coral+Pixels&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Coral Pixels -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bangers -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bangers&family=Coral+Pixels&family=Pixelify+Sans:wght@400..700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Pixelify Sans -->
+    <link rel="stylesheet" type="text/css" href="home.css" />
+  </head>
+  <body>
+    <div style="width: 100%; height: 50px" class="topextras"></div>
+    <div class="header-container">
+      <div class="extras">
+        <img src="./frontendimg/titleimg.gif" class="titleimg" />
+        <h1 class="headertxt">the image resizer 3000!!!</h1>
+        <img
+          src="https://media.tenor.com/9kQo-Li6QBkAAAAm/glitter-amarilla.webp"
+          class="titleimg"
+        />
+      </div>
+      <p class="headersmalltxt">resize images now just a click away!!!!</p>
+    </div>
+
+    <div class="contaner2">
+      <div class="extras">
+        <img
+          src="https://media.tenor.com/36joPy6EAzkAAAAm/bits-8bits.webp"
+          class="G_T_I_IMG"
+        />
+        <p class="gallerytitle">avilable images :0000</p>
+        <img
+          src="https://media.tenor.com/l6BNQyeZ1e8AAAAm/bits-8bits.webp"
+          class="G_T_I_IMG"
+        />
+      </div>
+
+      <div class="gallery" id="imageGallery">
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰bonjour.jpg꒱ ‧₊˚</p>
+          <img src="/images/bonjour.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            a mole? a rat? nopeヽ(°〇°)ﾉ!<br />just french tubbo peaking throug
+            the dirt(˶˃ᆺ˂˶)
+          </p>
+        </div>
+
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰kuromicry.jpg꒱ ‧₊˚</p>
+          <img src="/images/kuromicry.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            oh no\(º □ º l|l)/ !poor kuromi is crying(｡•́︿•̀｡)!<br />
+            poor little thing˙◠˙
+          </p>
+        </div>
+
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰miku.jpg꒱ ‧₊˚</p>
+          <img src="/images/miku.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            Hatsune Miku. she's blue hair blue tie and hiding in your
+            wifi＼(≧▽≦)／<br />world is hers(✧ω✧) she must have seen things she
+            so scared...(•᷄- •᷅ ;)
+          </p>
+        </div>
+
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰partyguy.jpg꒱ ‧₊˚</p>
+          <img src="/images/partyguy.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            party party₍₍⚞(˶˃ ᵕ ˂˶)⚟⁾⁾ party everywhere with partyguy!!!!!<br />even
+            in war?( •̯́ ^ •̯̀) ofcourse even in war(≧ᗜ≦)
+          </p>
+        </div>
+
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰tetopear.jpg꒱ ‧₊˚</p>
+          <img src="/images/tetopear.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            cuse her name is teto pear♪(๑ᴖ◡ᴖ๑)♪<br />she has a song to
+            share♪┏(・o･)┛♪<br />ah she wishes she could just be a pear(∩˃o˂∩)
+          </p>
+        </div>
+
+        <div class="imagebio">
+          <p class="imgname">˚₊‧꒰tommystand.jpg꒱ ‧₊˚</p>
+          <img src="/images/tommystand.jpg" class="galleryimg" />
+          <p class="imgdisc">
+            he's just standing there... menacingly..( ˶óᯅò) !!
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="submitextra">
+      <img
+        src="https://media.tenor.com/oOzrJjzToQ0AAAAm/cute-cat.webp"
+        class="submitextraimg"
+      />
+      <div class="submitimgbox">
+        <h2 class="submittitle">₊˚⊹౨submit imageৎ ₊˚⊹</h2>
+        <p class="headersmalltxt">dont like? add!</p>
+        <form id="uploadForm" enctype="multipart/form-data">
+          <input type="file" name="uploadedimg" class="uploadimginput" />
+          <p class="submitbtninputtxt">title</p>
+          <input
+            type="text"
+            id="uploadedimgtitle"
+            class="submit"
+            placeholder="title"
+          />
+          <p class="submitbtninputtxt">bio</p>
+          <input
+            type="text"
+            id="uploadimgbio"
+            class="submit"
+            placeholder="bio"
+          />
+          <button type="button" class="submitbt" id="addImageBtn">
+            add image!
+          </button>
+        </form>
+      </div>
+      <img
+        src="https://media.tenor.com/YSzBJZA8P0cAAAAm/cat-black.webp"
+        class="submitextraimg"
+      />
+    </div>
+
+    <div style="width: 100%; height: 50px" class="warningextras"></div>
+    <div class="extras">
+      <img
+        src="https://media.tenor.com/2zIp8gXF8ZsAAAAi/purple-purplecore.gif"
+        class="warnimg"
+        style="width: 100px"
+      />
+      <p class="warntxt">
+        we are terribly sorry! the bio input is currently broken ૮(˶ㅠ︿ㅠ)ა
+      </p>
+      <img
+        src="https://media.tenor.com/nelm_M-UfwYAAAAM/baby-unicorn.gif"
+        class="warnimg"
+        style="width: 150px"
+      />
+    </div>
+    <div style="width: 100%; height: 50px" class="warningextras2"></div>
+
+    <div style="width: 100%; height: 70px" class="middlextras"></div>
+
+    <div class="contaner3">
+      <h2 class="headertxt">︶⊹︶︶୨resize time!୧︶︶⊹︶</h2>
+      <div class="extras">
+        <img
+          src="https://media.tenor.com/p7b1fFLdgdgAAAAm/woo-happy.webp"
+          class="S_R_I_IMG"
+          style="height: 40px"
+        />
+        <p class="dropdowntxt">select an image!</p>
+        <img
+          src="https://media.tenor.com/3Hy8TvXFfEcAAAAm/sanrio-my-sweet-piano.webp"
+          class="S_R_I_IMG"
+          style="height: 60px"
+        />
+      </div>
+      <select
+        class="dropdown"
+        style="font-family: Pixelify Sans"
+        id="imageselection"
+      >
+        <option value="bonjour" class="dropdowntxt">bonjour.jpg</option>
+        <option value="kuromicry" class="dropdowntxt">kuromicry.jpg</option>
+        <option value="miku" class="dropdowntxt">miku.jpg</option>
+        <option value="partyguy" class="dropdowntxt">partyguy.jpg</option>
+        <option value="tetopear" class="dropdowntxt">tetopear.jpg</option>
+        <option value="tommystand" class="dropdowntxt">tommystand.jpg</option>
+      </select>
+
+      <div class="extras">
+        <img
+          src="https://media.tenor.com/aO0V1NSgpqwAAAAm/cinnamoroll-sanrio.webp"
+          class="P_R_I_IMG"
+        />
+        <p class="dropdowntxt">select paramters!</p>
+        <img
+          src="https://media.tenor.com/mJT8ouhb5aYAAAAm/cinnamoroll-sanrio.webp"
+          class="P_R_I_IMG"
+        />
+      </div>
+      <div class="minicontainer3">
+        <input
+          type="text"
+          id="iwidth"
+          class="inputbox"
+          placeholder="width..."
+        />
+        <p style="font-family: Coral Pixels">x</p>
+        <input
+          type="text"
+          id="ihight"
+          class="inputbox"
+          placeholder="hight..."
+        />
+      </div>
+
+      <div class="extras">
+        <img src="./frontendimg/extraimg.gif" class="BT_IMG" />
+        <button class="submitbt" onclick="getresizedimg()">resize!</button>
+        <img
+          src="https://media.tenor.com/loEK5zRS5tQAAAAm/bits-8bits.webp"
+          class="BT_IMG"
+        />
+      </div>
+      <div style="width: 100%; height: 70px" class="bottomextras"></div>
+      <p>
+        The value of the option selected is:
+        <span class="output"></span>
+        <span class="poutput"></span>
+      </p>
+    </div>
+
+    <div id="hiddendiv" class="resizedimgbox">
+      <p class="resizedtext">success!!!!</p>
+      <div class="resizedextras">
+        <img
+          src="https://media.tenor.com/VOTj4yADabMAAAAm/cats-animated.webp"
+        />
+        <img src="" class="theresized" />
+        <img src="https://media.tenor.com/nzITIBWEtzAAAAAm/cute.webp" />
+      </div>
+      <a href="" target="_blank" class="resizedlink">here's your link!!!</a>
+    </div>
+
+    <div class="sillycontainer">
+      <h3 class="sponsortxt">˚₊‧꒰ა ☆sponsor!☆ ໒꒱ ‧₊˚</h3>
+      <p class="sponsorparagraph">★a word from our silly goober the boober!★</p>
+      <div class="sponsoreimgbox">
+        <img
+          src="https://media.tenor.com/85HevwFLCjIAAAAM/flowers-petals.gif"
+          style="width: 300px; height: 200px"
+        />
+        <img
+          src="https://media.tenor.com/ayqejg_3SYMAAAAm/enderman-spin.webp"
+        />
+        <img
+          src="https://media.tenor.com/cWnqmIbD9CUAAAAM/aesthetic-saturn.gif"
+          style="width: 300px; height: 200px"
+        />
+      </div>
+    </div>
+
+    <script>
+      function showdiv() {
+        document.getElementById('hiddendiv').style.display = 'block';
+      }
+      function getresizedimg() {
+        const selectedimg = document.querySelector('#imageselection').value;
+        const width = document.getElementById('iwidth').value;
+        const height = document.getElementById('ihight').value;
+
+        if (!selectedimg || !width || !height) {
+          alert('Please fill in all fields');
+          return;
+        }
+
+        const url = `/resize?name=${selectedimg}.jpg&width=${width}&height=${height}`;
+
+        document.querySelector('.theresized').src = url;
+        document.querySelector('.resizedlink').href = url;
+
+        showdiv();
+      }
+      // ////////////////////////////////////////////////////////////////////////////////////////
+      document
+        .getElementById('addImageBtn')
+        .addEventListener('click', async function (event) {
+          event.preventDefault();
+
+          const inputefile = document.querySelector(
+            'input[name="uploadedimg"]'
+          );
+          const inputtitle = document.getElementById('uploadedimgtitle');
+          const inputbio = document.getElementById('uploadimgbio');
+
+          const file = inputefile.files[0];
+          const titleRaw = inputtitle.value.trim();
+          const bio = inputbio.value.trim();
+
+          if (!file || !titleRaw || !bio) {
+            alert('missing info');
+            return;
+          }
+
+          if (file.type !== 'image/jpeg') {
+            alert('Only .jpg images are allowed');
+            return;
+          }
+
+          const title = titleRaw.endsWith('.jpg')
+            ? titleRaw
+            : `${titleRaw}.jpg`;
+          const jpgname = title
+            .replace('.jpg', '')
+            .toLowerCase()
+            .replace(/\s+/g, '');
+
+          const forminputvalues = new FormData();
+          const renamefile = new File([file], title, { type: file.type });
+          forminputvalues.append('file', renamefile);
+
+          try {
+            const response = await fetch('/upload', {
+              method: 'POST',
+              body: forminputvalues,
+            });
+
+            if (!response.ok) {
+              const errortxt = await response.text();
+              throw new Error(errortxt);
+            }
+
+            const data = await response.json();
+            const imgurl = `/images/${title}`;
+
+            const addcard = document.createElement('div');
+            addcard.className = 'imagebio';
+            addcard.innerHTML = `
+        <p class="imgname">˚₊‧꒰${title}꒱ ‧₊˚</p>
+        <img src="${imgurl}" class="galleryimg" />
+        <p class="imgdisc">${bio.replace(/\n/g, '<br>')}</p>
+      `;
+            document.querySelector('.gallery').appendChild(addcard);
+
+            const dropdown = document.getElementById('imageselection');
+            const option = document.createElement('option');
+            option.value = jpgname;
+            option.textContent = title;
+            option.className = 'dropdowntxt';
+            dropdown.appendChild(option);
+
+            inputefile.value = '';
+            inputtitle.value = '';
+            inputbio.value = '';
+          } catch (err) {
+            console.error(err);
+            alert('somthing went wrong');
+          }
+        });
+
+      const originalImages = [
+        'bonjour.jpg',
+        'kuromicry.jpg',
+        'miku.jpg',
+        'partyguy.jpg',
+        'tetopear.jpg',
+        'tommystand.jpg',
+        'fake.jpg',
+        'resized',
+      ];
+
+      // Function to load uploaded images on page load
+      async function loadUploadedImages() {
+        try {
+          const response = await fetch('/get-uploaded-images');
+          if (!response.ok) throw new Error('Failed to fetch images');
+
+          const uploadedImages = await response.json();
+
+          // Filter out original images and process the rest
+          uploadedImages
+            .filter((img) => !originalImages.includes(img))
+            .forEach((img) => {
+              const imgNameWithoutExt = img.replace('.jpg', '');
+
+              // Create gallery container
+              const addcard = document.createElement('div');
+              addcard.className = 'imagebio';
+              addcard.innerHTML = `
+          <p class="imgname">˚₊‧꒰${img}꒱ ‧₊˚</p>
+          <img src="/images/${img}" class="galleryimg" />
+          <p class="imgdisc">This img was uploaded</p>
+        `;
+              document.querySelector('.gallery').appendChild(addcard);
+
+              // Add to dropdown if not already there
+              const dropdown = document.getElementById('imageselection');
+              const exists = Array.from(dropdown.options).some(
+                (opt) => opt.value === imgNameWithoutExt
+              );
+              if (!exists) {
+                const option = document.createElement('option');
+                option.value = imgNameWithoutExt;
+                option.textContent = img;
+                option.className = 'dropdowntxt';
+                dropdown.appendChild(option);
+              }
+            });
+        } catch (err) {
+          console.error('Error loading uploaded images:', err);
+        }
+      }
+
+      // Call the function when page loads
+      document.addEventListener('DOMContentLoaded', loadUploadedImages);
+    </script>
+  </body>
+</html>
