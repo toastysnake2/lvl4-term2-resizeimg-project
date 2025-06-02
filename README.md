@@ -1,7 +1,9 @@
 # image resizer project
 the deci level4 term 2 graduation project, its supposed to resize pre-existing images, allow you to upload images,and resize those aswell
 ## how to access
-use this url:
+* you must run the start script
+* run "npm i" in command prompt to instal node modules
+* use this url:
 ```
 http://localhost:5000
 ```
@@ -43,7 +45,7 @@ method: GET
 
 just to make sure the image exists in the directory
 
-# scripts
+# scripts(all run in command prompt not powershell)
 
 ## start
 starts nodemon in src/index.ts (which is the file that starts the server)
